@@ -1,0 +1,29 @@
+.servicediv1{
+background-color: rgb(255,255,255);padding: 5rem;height: auto;
+
+}
+.servicediv1 .heading h1{
+    color: rgb(24,39,59);font-family: arial;font-size: 2.5rem;text-align: center;margin-bottom: 4rem;
+}
+.servicediv1 .servicegrid{
+    display: grid;grid-template-columns: auto auto auto;justify-content: center;
+    grid-gap: 1.5rem;
+}
+.sdiv1{
+    background-color:rgb(255,255,255);border-radius: .5rem;box-shadow: .2rem .2rem .4rem gray;
+}
+.sdiv1 h1{color: rgb(24,39,59);}
+.sdiv1 p{
+    padding: 0 .5rem 0 .5rem;color: rgb(24,39,59);
+}
+.sdiv1 img{
+    width: 100%;
+}
+.sdiv1 .servicelinks a{
+    display: inline-block;
+}
+.servicelinks .book{
+    background-color: rgb(24,39,59);border-radius: .5rem;padding: .6rem;margin: .5rem;
+}
+
+

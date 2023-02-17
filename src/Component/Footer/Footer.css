@@ -1,0 +1,81 @@
+.footer1{
+    position: relative;padding: 3.2rem;z-index: 1;
+    display: flex;justify-content: space-between;align-items: center;
+    width: 100%;background-color: rgb(35,57,81);
+}
+.contact h3{
+    color: white;font-weight: bold;font-family: arial;margin-bottom: 2rem;padding-top: 1.5rem;
+    
+}
+.contact span{font-family: arial;}
+.footer1 .links1{
+    display: flex;justify-content: space-around;align-items: center;gap: 4.5rem;align-items: center;
+}
+
+.links1 .div1,.links1 .div2,.links1 .div3,.links1 .div4{
+    display: flex;flex-direction: column;gap: 2rem;margin-top: 1rem;
+}
+.links1 .div1 a,.links1 .div2 a,.links1 .div3 a,.links1 .div4 a{
+    font-size: .9rem;
+} 
+.links1 a:hover{
+    color: orangered;
+}
+.social{
+    position: relative;padding: 4.7rem;width: 100%;z-index: 1;
+    display: flex;justify-content: center;align-items: center;gap: 3.2rem;
+    background-color: rgb(35,57,81);
+}
+.footer2{
+    position: relative;padding: 1.8rem;z-index: 1;
+    align-items: center;background-color: rgb(28,44,63);display: flex;justify-content: center;
+    width: 100%;
+}
+.footer2 a{
+    font-family: arial;font-size: 1.2rem;
+}
+.footer2 span{
+    color: lightgray;font-size: 1.1rem;margin-left: 3rem;font-family: arial;
+}
+@media(max-width:1024px){
+    .footer1 .links1{
+        gap: 2rem;
+    }
+}
+@media(max-width:768px){
+    .footer1{
+        display: flex;flex-direction: column;gap: 2rem;justify-content: center;align-items: center;
+    }
+    .footer1 .contact{
+        text-align: center;
+    }
+    .contact .contactspan{
+        margin-right: 1.5rem;
+    }
+    .footer1 .links1 a{
+        font-size: 1rem;
+    }
+    .footer2{
+        display: flex;flex-direction: column;gap: 1.5rem;justify-content: center;align-items: center;
+    }
+    .footer2 .span2{
+        margin-right: 3rem;
+    }
+    .footer2 .span3{
+        margin-right: 3rem;
+    }
+}
+@media(max-width:425px){
+    .footer1 .links1{
+        display: flex;flex-direction: column;gap: 2rem;text-align: center;
+    }
+    .footer2{
+        text-align: center;
+    }
+    .footer2 .span2{
+        margin: 0rem;font-size: .9rem;
+    }
+    .footer2 .span3{
+        margin: 0rem;font-size: .9rem;
+    }
+}

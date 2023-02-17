@@ -1,0 +1,33 @@
+.mdiv{text-align: center;background-color: rgb(246, 245, 245);}
+.mdiv .firstdiv{
+    display: flex;justify-content: space-evenly;gap: 6.3rem;
+    text-align: center;padding:7.4rem 4.5rem 7rem 4.5rem
+}
+.firstdiv .image img{
+  width: 100%;box-shadow: .2rem .2rem .4rem rgb(231, 229, 229);
+}
+.firstdiv .form{
+background-color: rgb(35,57,81);width: 39rem;border-radius: .3rem;padding: 2.5rem 2.5rem 1.8rem 2.5rem;
+}
+.form h1{
+    color: white;font-family: arial;font-size: 1.8rem;text-align: start;margin-bottom: .8rem;
+}
+.form input{
+    width: 100%;height: 2.8rem;margin-bottom: 1rem;border-radius: .3rem;border: none;padding: .5rem;
+    font-size: 1.2rem;
+}
+.form .submit{
+    background-color: yellow;color: black;font-size: 1.5rem;font-weight: bold;font-family: arial;
+}
+form .textarea{
+    height: 6rem;padding-top: .5rem;display: flex;
+}
+.bheading h1{
+    color: black;font-family: arial;margin-bottom: 2rem;font-size: 3rem;
+}
+.seconddiv{
+    padding: 0 4.5rem 0 4.5rem;
+}
+.seconddiv p{
+    font-size: 1.3rem;font-family: arial;text-align: start;
+}

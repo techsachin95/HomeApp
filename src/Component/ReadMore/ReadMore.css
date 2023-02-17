@@ -1,0 +1,15 @@
+.readless{
+ margin-top: 7.7rem;position: absolute;color: rgb(24,39,59);margin:9rem
+}
+.read-more-link {
+    color:rgb(24,39,59);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    padding: 0 6rem 0 0;
+}
+
+.extra-content {
+    color: rgb(24,39,59);
+    padding: 1rem;
+}

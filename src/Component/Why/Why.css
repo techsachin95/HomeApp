@@ -1,0 +1,14 @@
+.why{background-color:rgb(255,255,255);}
+.why .div1{
+    text-align: center;font-family: arial;color: rgb(35,57,82);font-size: 1.1rem;
+    padding-top: 3rem;
+}
+.why .content{
+    padding: 2rem 10rem 2.5rem 10rem;
+}
+.content img{
+    height: .9rem;width: .9rem;
+}
+.content span{
+    font-family: arial;font-size: 1rem;
+}

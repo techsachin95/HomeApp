@@ -1,0 +1,88 @@
+.paymaindiv{
+    display: flex;justify-content: space-between;background-color: rgb(239,239,239);
+}
+.paymaindiv .imagediv{
+    width: auto;
+}
+.contentdiv{
+    background-color: rgb(252,252,252);width: 100%;
+}
+.paymentdetails{
+    background-color: white;width: 35%;
+    box-shadow: .2rem .2rem .7rem rgb(201, 199, 199);position: absolute;top: 20%;right: 15%;
+}
+.paymentdetails .black2{
+    height: .4rem;width: 2rem;background-color: black;margin-left: 1.5rem;
+}
+.paymentdetails form{
+    padding: 1.5rem;
+}
+.paymentdetails p{
+    font-family: arial;font-size: 1.3rem;color: rgb(35,57,81);font-weight: bold;margin:2rem 0rem 1rem 1.5rem;
+}
+.paymentdetails label{
+    font-size: 1.1rem;font-weight: bold;
+}
+.paymentdetails input{
+    width: 60%;height: 2.5rem;margin:0 0 2rem 6rem;padding: .5rem;font-size: 1rem;
+    border-radius: .2rem;border: 1px solid black;
+}
+.paymentdetails .amount{
+    margin-left: 4.8rem;
+}
+.paymentdetails .amount2{
+    margin-left: 5.8rem;
+}
+.paymentbottomdiv{
+    display: flex;justify-content: center;align-items: center;
+}
+.paymentbottomdiv .blackdiv{
+    background-color: black;width: 43%;
+}
+.blackdiv h2{
+    color: white;font-size: 1rem;font-family: arial;
+}
+.paydiv{
+    background-color: rgb(245,246,247);padding: .8rem 2rem 1.2rem 2rem;
+}
+.paydiv img{
+    width: 100%;height: .9rem;
+}
+.content1{
+    display:flex;flex-direction: column;gap: 8rem;margin-left: 13rem;width: 60%;
+}
+.content1 .headdiv{
+    margin: 2rem 0 0 0;
+}
+.headdiv .maindiv{
+    display: flex;justify-content: start;align-items: center;background-color: rgb(252,252,252);
+    margin-bottom: 1rem;
+}
+.content1 .headdiv img{
+    width: 5rem;height: 5rem;box-shadow: .2rem .2rem .1rem rgb(224, 222, 222);margin-left: 1rem;
+}
+.headdiv span{
+    font-size: 1.1rem;font-weight: bold;color:rgb(35,57,81);
+}
+.content1 .headdiv h2{
+    font-family: arial;color: rgb(35,57,81);
+}
+.headdiv .black{
+    height: .4rem;width: 2rem;background-color: black;margin-left: 1rem;
+}
+.bottomdiv{
+    width: 60%;color: rgb(35,57,81);font-family: arial;
+}
+.bottomdiv h3{
+    color:rgb(35,57,81);font-weight: 550;font-size: 1.1rem;
+}
+.bottomdiv a,.bottomdiv p{
+    color:rgb(35,57,81);font-family: arial;font-size: .9rem;line-height: 1.3rem;
+}
+.bottomdiv img{
+    width:30%;height: 2rem;margin-right: 3rem;
+}
+.endpara a{
+    color: blue;
+}
+.bottomdiv .endlink{color: blue;}

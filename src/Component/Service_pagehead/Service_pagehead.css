@@ -1,0 +1,14 @@
+.maindiv{
+    text-align: center;background-color: rgb(255,255,255);
+}
+.maindiv .heading{
+    background-color: rgb(28,44,63);padding: .2rem 2rem .2rem 2rem;width: 35%;margin: auto;
+    position: relative;z-index: 999999;bottom: 2.5rem;border-radius: .8rem;
+}
+.maindiv .heading h1{
+    font-size: 2.2rem;font-family: arial;
+}
+.para{padding: 4rem;}
+.para p{
+    font-family: arial;font-size: 1.5rem;
+}

@@ -1,0 +1,7 @@
+.whatsup1{
+    position: fixed;bottom: 0;right: 0;z-index: 99999999999;
+    
+}
+.whatsup1 img{
+    height: 3.5rem;width: 3.5rem;
+}
